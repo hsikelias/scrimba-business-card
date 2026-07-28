@@ -1,0 +1,45 @@
+@keyframes background-color{
+    0% {background-color: #F4F1BB;}
+    25% {background-color: #F1EDA7;}
+    50% {background-color: #F2C9A7;}
+    75% {background-color: #E9E372;}
+    100% {background-color: #D4CB21;}
+}
+
+body {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #F4F1BB;
+    color: #160C28;
+    border-bottom: 10px groove #ED6A5A;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 1px #811C0E;
+    animation-name: background-color;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.card-info{
+    color: #160C28;
+}
+
+.card-info :hover {
+    color: #811C0E;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
